@@ -178,7 +178,7 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-[![Stargazers repo roster for @ikhosravi/TTrail](https://reporoster.com/stars/ikhosravi/TTrail)](https://github.com/im4kv/TTrail/stargazers)
+[![Stargazers repo roster for @im4kv/TTrail](https://reporoster.com/stars/im4kv/TTrail)](https://github.com/im4kv/TTrail/stargazers)
 
 
 
