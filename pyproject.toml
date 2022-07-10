@@ -32,7 +32,7 @@ dependencies = [
 requires-python = ">=3.8"
 
 [project.optional-dependencies]
-dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest", "build", "twine"]
 
 [project.urls]
 "Homepage" = "https://github.com/ikhosravi/TTrail"

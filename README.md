@@ -12,10 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo-light.png">
-    <img alt="TTrail" src="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo-dark.png">
-  </picture>
+
+  <img alt="TTrail" src="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo.png" width="300" height="300">
 
   <h3 align="center">TTrail: AWS Cloudtrail Event History Analyzer</h3>
 
@@ -176,9 +174,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-[![Stargazers repo roster for @im4kv/TTrail](https://reporoster.com/stars/im4kv/TTrail)](https://github.com/im4kv/TTrail/stargazers)
 
 
 
