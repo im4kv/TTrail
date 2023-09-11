@@ -12,10 +12,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo-light.png">
-    <img alt="TTrail" src="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo-dark.png">
-  </picture>
+
+  <img alt="TTrail" src="https://raw.githubusercontent.com/im4kv/TTrail/main/images/logo.png" width="300" height="300">
 
   <h3 align="center">TTrail: AWS Cloudtrail Event History Analyzer</h3>
 
@@ -87,8 +85,7 @@ In case you have more than one AWS profile, you can select different profiles wh
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
+TTrail can be Install using pip:
   ```sh
   python3 -m pip install ttrail 
   ```
@@ -139,7 +136,6 @@ TTrail has an useful option of `--skip-service-events` to filter any events in t
   ttrail --start-time '12 hours ago' --skip-service-events
   ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -176,9 +172,6 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-[![Stargazers repo roster for @ikhosravi/TTrail](https://reporoster.com/stars/ikhosravi/TTrail)](https://github.com/im4kv/TTrail/stargazers)
 
 
 

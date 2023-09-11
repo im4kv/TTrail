@@ -1,0 +1,56 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[project]
+name = "ttrail"
+version = "0.1.1"
+description = "Analyze AWS Cloudtrail Events and dynamically group them for a easily understandable Treeview"
+readme = "README.md"
+authors = [{ name = "Iman Khosravi", email = "im.khosravi@gmail.com" }]
+license = { file = "LICENSE" }
+
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["AWS", "Cloudtrail", "Treeview", "Security", "Cloud Security", 
+"Incident Handling", "Change Analysis", "Log analysis"]
+dependencies = [
+    "click",
+    "rich",
+    "boto3",
+    "pandas",
+    "dateparser"
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest", "build", "twine"]
+
+[project.urls]
+"Homepage" = "https://github.com/ikhosravi/TTrail"
+"Bug Tracker" = "https://github.com/ikhosravi/TTrail/issues"
+
+[project.scripts]
+ttrail = "ttrail.cli:cli"
+
+[tool.bumpver]
+current_version = "0.1.1"
+version_pattern = "MAJOR.MINOR.PATCH[PYTAGNUM]"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"',
+]
